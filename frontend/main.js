@@ -1,0 +1,1 @@
+import CSS from '../frontend/scss/index.scss';
