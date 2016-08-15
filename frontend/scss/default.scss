@@ -1,0 +1,34 @@
+body, html {
+	padding: 0;
+	margin: 0;
+}
+
+[data-reactroot] {
+	> * {
+		box-sizing: border-box;
+		float: left;
+
+		&.search {
+			width: 30%;
+			min-height: 100vh;
+			padding: 20px;
+			position: fixed;
+			left: 0;
+			top: 0;
+		}
+
+		&.container {
+			width: 70%;
+			margin-left: 30%;
+			position: relative;
+			z-index: 1;
+			margin-top: 20px;
+		}
+	}
+
+	.search-info {
+		svg {
+			margin-left: 0 !important;
+		}
+	}
+}

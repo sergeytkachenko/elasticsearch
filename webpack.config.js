@@ -35,6 +35,8 @@ module.exports = {
 
     plugins: [
         new ExtractTextPlugin('[name].css'),
-        new HtmlWebpackPlugin()
+        new HtmlWebpackPlugin({
+            template: 'frontend/index.html'
+        })
     ]
 };
